@@ -1,4 +1,5 @@
 ## Package structure
+```
 sound/                          Top-level package
       __init__.py               Initialize the sound package
       formats/                  Subpackage for file format conversions
@@ -22,5 +23,6 @@ sound/                          Top-level package
               vocoder.py
               karaoke.py
               ...
+```
 
 [Intra-package Reference](https://docs.python.org/3.6/tutorial/modules.html#intra-package-references) using relative import
